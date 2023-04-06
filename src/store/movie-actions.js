@@ -4,7 +4,6 @@ import { fetchPlayerDataReducerActions } from "./updatePlayerDataReducer";
 
 export const fetchMovieTitles = () => {
   const total_pages = 544;
-  const API_KEY = "65d39b46481bbacee474e4293b1ad069";
   let page_no = Math.floor(Math.random() * total_pages);
   const url = `https://api.themoviedb.org/3/movie/top_rated?api_key=${API_KEY}&language=en-US&page=${page_no}`;
 
