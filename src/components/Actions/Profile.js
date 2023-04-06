@@ -10,11 +10,11 @@ const Profile = () => {
         <form className={classes.formContainer}>
           <div className={classes.fields}>
             <label htmlFor="name">NAME</label>
-            <input type="text" placeholder="SIDDHANTH" />
+            <input type="text" placeholder="JOHNDOE" />
           </div>
           <div className={classes.fields}>
             <label htmlFor="email">EMAIL</label>
-            <input type="email" placeholder="siddhanth8@gmail.com" />
+            <input type="email" placeholder="johndoe@gmail.com" />
           </div>
         </form>
         <Box m={1} display="flex" justifyContent="center" alignItems="center">
