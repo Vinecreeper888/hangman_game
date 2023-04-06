@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:wght@700&display=swap");
+
+.modalContainer {
+  border: 2px solid #fff;
+  background-color: #000;
+  position: relative;
+  padding: 0 2rem;
+  width: auto;
+  margin-top: 5rem;
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.modalContainer > h1 {
+  margin-bottom: 0;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+}
+
+.modalContainer > p {
+  margin-top: 0;
+}
+
+.modalContainer > ul {
+  position: relative;
+  text-align: center;
+  right: 5rem;
+}
+
+.statsContainer {
+  overflow-y: hidden;
+}
+
+.stats {
+  color: #fff;
+  position: relative;
+  float: left;
+  font-size: 4rem;
+  font-family: "Gloock", serif;
+}
+
+.totalPlayed {
+    margin-left: 2rem;
+}
+
+.winP {
+    margin-left: 12rem;
+}
+
+.currentStreak {
+    margin-left: 20rem;
+}
+
+.maxStreak {
+    margin-left: 28rem;
+}
+
+.statsHeadersPlayed {
+  text-align: left;
+  font-family: "Gloock", serif;
+  font-size: 1rem;
+  margin: 0 0 0 2.5rem;
+  padding: 0;
+  color: #fff;
+}
+
+.statsHeadersWin {
+  color: #fff;
+  margin: 0 0 0 2.5rem;
+  position: relative;
+  bottom: 1rem;
+  left: 9rem;
+  font-family: "Gloock", serif;
+  font-size: 1rem;
+}
+
+.statsHeadersStreak {
+  color: #fff;
+  margin: 0 0 0 2.5rem;
+  position: relative;
+  bottom: 2.5rem;
+  left: 17rem;
+  font-family: "Gloock", serif;
+  font-size: 1rem;
+}
+
+p {
+  margin: 0;
+}
+
+.statsHeadersMax {
+  color: #fff;
+  margin: 0 0 0 2.5rem;
+  position: relative;
+  bottom: 4.5rem;
+  left: 25rem;
+  font-family: "Gloock", serif;
+  font-size: 1rem;
+  /* text-align: center;
+    margin-left: 2.5rem;
+    color: #fff;
+    position: relative;
+    bottom: 4.5rem;
+    left: 23rem; */
+}
+
+.graphs {
+  color: #fff;
+  border: 1px solid #fff;
+  position: relative;
+  margin-top: 1rem;
+  bottom: 3rem;
+}
+
+.graphs > p {
+  margin: 0;
+  padding: 0.5rem;
+  font-family: "Gloock", serif;
+}
+
+.confettiContainer {
+  right: 1000px;
+}
+
+
+.playAgainButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playAgainButton > button {
+  padding: 0.5rem 1rem;
+  margin: 0;
+  font-family: "Gloock",serif;
+  font-size: 1.25rem;
+  background-color: aquamarine;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}

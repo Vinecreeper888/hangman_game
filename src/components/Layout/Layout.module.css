@@ -1,0 +1,9 @@
+body {
+    background-color: #090909;
+}
+
+.main {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+}

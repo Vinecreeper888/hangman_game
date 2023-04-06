@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:wght@700&display=swap");
+
+nav {
+    margin:1rem 1rem;
+}
+
+.header {
+  margin:0 auto;
+  margin-left: 4rem;
+  font-family: "Gloock", serif;
+  font-size: 3rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+
+ul {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-left: 0;
+    margin:0 auto;
+}
+
+li {
+    display: flex;
+    margin:0 0.5rem;
+}
+
+.hamburgerMenu {
+    margin:0 auto 0 0;
+    cursor: pointer;
+}
+
+.settings {
+    margin-top: 0.5rem;
+}
+
+.stats {
+    margin-top: 0.5rem;
+}
+
+.profile {
+    margin-top: 0.5rem;
+}
+
+.settings:hover .description{
+    visibility: visible;
+    opacity: 1;
+    font-family: "Gloock",serif;
+    position: absolute;
+    margin-right: 0.5rem;
+    margin-top: 2.0rem;
+    z-index: 3;
+}
+
+.stats:hover .description {
+    visibility: visible;
+    opacity: 1;
+    font-family: "Gloock",serif;
+    position: absolute;
+    margin-right: 0.5rem;
+    margin-top: 2.0rem;
+    z-index: 3;
+}
+
+.profile:hover .description {
+    visibility: visible;
+    opacity: 1;
+    font-family: "Gloock",serif;
+    position: absolute;
+    margin-right: 0.5rem;
+    margin-top: 2rem;
+    z-index: 3;
+}
+
+.description {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+    visibility: hidden;
+    font-size: 10px;
+    opacity: 0;
+    margin: 0rem;
+    padding: 0;
+    z-index: -1;
+}

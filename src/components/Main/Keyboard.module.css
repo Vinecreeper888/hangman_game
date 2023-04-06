@@ -1,0 +1,40 @@
+.keyboardCont {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row: 1;
+  }
+  
+  .keyboardCont div {
+    display: flex;
+  }
+  
+  .firstRow {
+    margin: 0.5rem 0;
+  }
+
+  .secondRow {
+    margin: 0.5rem 0;
+  }
+  
+  .keyboardButton {
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 0.5rem;
+    margin: 0 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .changeColor {
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 0.5rem;
+    margin: 0 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: gray;
+  }

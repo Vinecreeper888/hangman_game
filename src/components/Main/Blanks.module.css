@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:wght@700&display=swap");
+
+.blankMovie {
+    color: #fff;
+    font-family: "Gloock",serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.blanks {
+    font-size: 5rem;
+    padding: 0;
+    letter-spacing: 1.5rem;
+    margin-bottom: 0;
+}
+
+.inputBox {
+    background-color: #090909;
+    color: #ccc;
+    border: none;
+    /* letter-spacing: 1.5rem; */
+    font-size: 3rem;
+    outline: none;
+    text-align: center;
+    width: auto;
+    border: 1px solid #fff;
+    margin-left: 1.5rem;
+    padding: 0;
+}
+
+.inputBoxPosition {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
